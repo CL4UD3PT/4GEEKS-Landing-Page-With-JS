@@ -1,0 +1,64 @@
+/* RESETS */
+body{background: #000; color:#999; margin:0; font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;font-size: 15px;}
+ul{margin: 0; padding:0;}
+ul li{list-style: none;}
+button{ background:#096de8; border:0; color:#fff; font-size: 1em; font-family:inherit; padding: .5em 1em; }
+
+/* BEHAVIORAL STYLES */
+.container { max-width:900px; margin:auto;}
+.layout{display: flex;}
+.layout.horizontal{flex-direction: row;}
+.start-end{justify-content: space-between;}
+.j-center{justify-content: center;}
+.a-center{align-items: center;}
+.txt-center{text-align: center;}
+.layout.vertical{flex-direction: column;}
+
+.p-1{padding: 10px;}
+.p-2{padding-left:50px; padding-right:50px;}
+.p-3{padding-left:75px; padding-right:75px;}
+.grow-1{flex-grow: 1;}
+.w-50{width: 50%;}
+.w-100{width: 100%;}
+.dark{color: #444;}
+.blue{color: #096de8;}
+.blue-bg{background: #096de8;}
+.img {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 100%;
+}
+.img-circle{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 100%;
+    box-shadow: 0 3px 5px #999;
+    height: 125px;
+    margin: auto;
+    width: 125px;
+}
+.showcase div{width:50%; box-sizing: border-box;}
+input{font-size: 1em; padding: .5em; width:300px;}
+.footer-menu li:not(:last-child):after{color: #999; content: "\00b7"; margin: 0 .5em;}
+.footer-social li {font-size: 1.7em; margin-left: 20px;}
+/* SPECIFIC */
+.container{background:#fbfbfc;}
+.logo{font-size: 1.3em; font-weight: 600;}
+.sign-up{height: 500px; color:#fff;}
+.icon{font-size: 3em;}
+.menu-showcase{height:300px;}
+.showcase{height:320px;}
+.people{height: 380px;}
+.person {width: 250px;}
+.people h3{font-size: 1.6em;}
+.person-name{font-size: 1.15em; font-weight: 600;}
+.person p{font-size: .8em; margin: 0 0 5px;}
+.secondary-signup{color:#fff; height:225px;}
+.secondary-signup h3{font-size: 1.3em;}
+.footer{font-size: .9em; height: 120px;}
+.footer p{font-size: .7em; margin-bottom: 0;}
+.menu-showcase,
+.people,
+.footer{background: #f7f9f9;}
