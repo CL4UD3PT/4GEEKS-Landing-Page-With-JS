@@ -35,3 +35,6 @@ Additional goals (if you feel confident):
 ## Technologies
 
 HTML5 and CSS and Javascript.
+
+##
+Both form inputs capture user email and send it through AJAX formsubmit.io.
