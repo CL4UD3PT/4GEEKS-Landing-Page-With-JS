@@ -36,5 +36,5 @@ Additional goals (if you feel confident):
 
 HTML5 and CSS and Javascript.
 
-##
-Both form inputs capture user email and send it through AJAX formsubmit.io.
+## Aditional tasks
+Both forms input capture user email and send it through AJAX and formsubmit.io.
